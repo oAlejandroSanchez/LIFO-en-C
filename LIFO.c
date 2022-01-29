@@ -1,20 +1,12 @@
-/*Nombre: S醤chez P閞ez Omar Alejandro
-
-Problema: 
-Elaborar una base de datos implementado PILAS.
-Nota: Debe funcionar en la memoria principal.
-
-*/
-
-//Declaraci髇 de librer韆s
+//Declaraci贸n de librer铆as
 #include "stdio.h"
 #include "stdlib.h"
 #include <ctype.h>
 
-//Declaraci髇 de constantes
+//Declaraci贸n de constantes
 #define MAXIMO 9
 
-//Declaraci髇 de variables
+//Declaraci贸n de variables
 typedef struct _Nodo{
 	
 	char *nombre;
@@ -27,14 +19,14 @@ PILA *Pila = NULL;
 
 int contador = 0;
 
-//Declaraci髇 de funciones
+//Declaraci贸n de funciones
 void Inciso_a(void);
 void Insertar_elementos(PILA *);
 void Inciso_b(void);
 void Inciso_c(void);
 void Inciso_d(void);
 
-//Funci髇 principal
+//Funci贸n principal
 int main(void){
 	
 	char opcion, respuesta;
@@ -116,7 +108,7 @@ int main(void){
 
 }
 
-//La funci髇 del inciso (a), permite ingresar datos a la PILA.
+//La funci贸n del inciso (a), permite ingresar datos a la PILA.
 void Inciso_a(void){
 	
 	system("cls");
@@ -180,7 +172,7 @@ void Insertar_elementos(PILA *nodo_auxiliar){
 	}
 }
 
-//La funci髇 del inciso (b), permite mostrar los elementos y la cantidad de elementos ingresados de la PILA
+//La funci贸n del inciso (b), permite mostrar los elementos y la cantidad de elementos ingresados de la PILA
 void Inciso_b(void){
 	
 	system("cls");
@@ -218,7 +210,7 @@ void Inciso_b(void){
 	}
 }
 
-//La funci髇 del inciso (c), permite borrar elementos de la PILA
+//La funci贸n del inciso (c), permite borrar elementos de la PILA
 void Inciso_c(void){
 	
 	system("cls");
@@ -242,7 +234,7 @@ void Inciso_c(void){
 	
 }
 
-//La funci髇 del inciso (d), permite eliminar toda la PILA
+//La funci贸n del inciso (d), permite eliminar toda la PILA
 void Inciso_d(void){
 	
 	system("cls");
